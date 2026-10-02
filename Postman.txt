@@ -1,0 +1,452 @@
+#####################################################
+POST LOGIN
+#####################################################
+
+http://externalapi.coresetex.es/setex/services/login
+
+{
+    "username": "admin",
+    "password": "secret-password"
+}
+
+"token": "token"
+
+#####################################################
+POST CREATE TICKET
+#####################################################
+
+http://externalapi.coresetex.es/setex/services/ngsi-ld/v1/entities/ticket/create
+
+{
+    "id": "urn:ngsi-ld:ParkingTicket:ES000001",
+    "type": "ParkingTicket",
+    "registrationNumber": {
+      "type": "Property",
+      "value": "6611JFD"
+    },
+    "dateObserved": {
+      "type": "Datetime",
+      "value": "2026-04-27T12:27:47Z"
+    },
+    "validUntil": {
+      "type": "Datetime",
+      "value": "2026-04-27T14:27:47Z"
+    },
+    "creationDate": {
+      "type": "Datetime",
+      "value": "2026-04-27T12:27:47Z"
+    },
+    "idTypeOrigin": {
+      "type": "Property",
+      "value": "MET"
+    },
+    "dataProvider": {
+      "type": "Property",
+      "value": "BLINKAY"
+    },
+    "codeMet": {
+      "type": "Property",
+      "value": "24"
+    },
+    "refParkingSite": {
+      "type": "Property",
+      "value": "27"
+    },
+    "identifierTicket": {
+      "type": "Property",
+      "value": "ES000001"
+    },
+    "codeDelegation": {
+      "type": "Property",
+      "value": "15"
+    },
+    "paidMinutes": {
+      "type": "Property",
+      "value": "25"
+    },
+    "paymentDetail": {
+      "type": "Property",
+      "value": [
+        {
+          "amount": 150,
+          "codePayment": "1"
+        },
+        {
+          "amount": 30,
+          "codePayment": "6"
+        }
+      ]
+    },
+    "@context": [
+      "https://smartdatamodels.org/context.jsonld",
+      "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+      "https://coresetex.es/setex/services/ngsi-ld/v1/ngsi-ld-context.jsonld"
+    ]
+}
+
+#####################################################
+POST EXTEND TICKET
+#####################################################
+
+http://externalapi.coresetex.es/setex/services/ngsi-ld/v1/entities/ticket/extend
+
+{
+    "id": "urn:ngsi-ld:ParkingTicket:ES000002",
+    "type": "ParkingTicket",
+    "registrationNumber": {
+      "type": "Property",
+      "value": "6611JFD"
+    },
+    "dateObserved": {
+      "type": "Datetime",
+      "value": "2026-04-27T12:27:47Z"
+    },
+    "validUntil": {
+      "type": "Datetime",
+      "value": "2026-04-27T14:27:47Z"
+    },
+    "creationDate": {
+      "type": "Datetime",
+      "value": "2026-04-27T12:27:47Z"
+    },
+    "idTypeOrigin": {
+      "type": "Property",
+      "value": "MET"
+    },
+    "dataProvider": {
+      "type": "Property",
+      "value": "BLINKAY"
+    },
+    "codeMet": {
+      "type": "Property",
+      "value": "24"
+    },
+    "refParkingSite": {
+      "type": "Property",
+      "value": "27"
+    },
+    "identifierTicket": {
+      "type": "Property",
+      "value": "ES000002"
+    },
+    "identifierTicketOriginal": {
+      "type": "Property",
+      "value": "ES000001"
+    },
+    "extendMode": {
+      "type": "Property",
+      "value": "ONLY_EXTEND"
+    },
+    "codeDelegation": {
+      "type": "Property",
+      "value": "15"
+    },
+    "paidMinutes": {
+      "type": "Property",
+      "value": "25"
+    },
+    "paymentDetail": {
+      "type": "Property",
+      "value": [
+        {
+          "amount": 150,
+          "codePayment": "1"
+        },
+        {
+          "amount": 30,
+          "codePayment": "6"
+        }
+      ]
+    },
+    "@context": [
+      "https://smartdatamodels.org/context.jsonld",
+      "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+      "https://coresetex.es/setex/services/ngsi-ld/v1/ngsi-ld-context.jsonld"
+    ]
+}
+
+#####################################################
+POST PULLOUT TICKET
+#####################################################
+
+http://externalapi.coresetex.es/setex/services/ngsi-ld/v1/entities/ticket/pullOut
+
+{
+    "id": "urn:ngsi-ld:ParkingTicket:ES000002",
+    "type": "ParkingTicket",
+    "registrationNumber": {
+      "type": "Property",
+      "value": "6611JFD"
+    },
+    "dateObserved": {
+      "type": "Datetime",
+      "value": "2026-04-27T12:27:47Z"
+    },
+    "validUntil": {
+      "type": "Datetime",
+      "value": "2026-04-27T14:27:47Z"
+    },
+    "creationDate": {
+      "type": "Datetime",
+      "value": "2026-04-27T12:27:47Z"
+    },
+    "idTypeOrigin": {
+      "type": "Property",
+      "value": "MET"
+    },
+    "dataProvider": {
+      "type": "Property",
+      "value": "BLINKAY"
+    },
+    "codeMet": {
+      "type": "Property",
+      "value": "24"
+    },
+    "refParkingSite": {
+      "type": "Property",
+      "value": "27"
+    },
+    "identifierTicket": {
+      "type": "Property",
+      "value": "ES000002"
+    },
+    "codeDelegation": {
+      "type": "Property",
+      "value": "15"
+    },
+    "paidMinutes": {
+      "type": "Property",
+      "value": "25"
+    },
+    "refundDetail": {
+      "type": "Property",
+      "value": [
+        {
+          "amount": 150,
+          "codePayment": "1"
+        },
+        {
+          "amount": 30,
+          "codePayment": "6"
+        }
+      ]
+    },
+    "@context": [
+      "https://smartdatamodels.org/context.jsonld",
+      "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+      "https://coresetex.es/setex/services/ngsi-ld/v1/ngsi-ld-context.jsonld"
+    ]
+}
+
+#####################################################
+GET TICKETs NO EXISTE EN PRODUCCION
+#####################################################
+
+http://externalapi.coresetex.es/setex/services/ngsi-ld/v1/entities/tickets
+
+#####################################################
+POST CHECK CAR PLATE
+#####################################################
+
+http://externalapi.coresetex.es/setex/services/ngsi-ld/v1/entities/car/checkCarPlate
+
+{
+    "id": "urn:ngsi-ld:VehicleObserved:42342FFS",
+    "type": "VehicleObserved",
+    "registrationNumber": {
+      "type": "Property",
+      "value": "6611JFD"
+    },
+    "dateObserved": {
+      "type": "Datetime",
+      "value": "2026-04-27T12:27:47Z"
+    },
+    "location": {
+      "type": "GeoProperty",
+      "value": {
+        "type": "Point",
+        "coordinates": [-8.42432312, 43.34244312]
+      }
+    },
+    "refDevice": {
+      "type": "Property",
+      "value": "car0001"
+    },
+    "refUser": {
+      "type": "Property",
+      "value": "driver0001"
+    },
+    "cameraInfo": {
+      "type": "Property",
+      "value": "left camera"
+    },
+    "satellitesVisible": {
+      "type": "Property",
+      "value": 3
+    },
+    "@context": [
+      "https://smartdatamodels.org/context.jsonld",
+      "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+      "https://coresetex.es/setex/services/ngsi-ld/v1/ngsi-ld-context.jsonld"
+    ]
+}
+
+#####################################################
+POST CHECK HAS ANNULABLE COMPLAINT
+#####################################################
+
+http://externalapi.coresetex.es/setex/services/ngsi-ld/v1/entities/complaints/checkHasAnnulableComplaints
+
+{
+    "id": "urn:ngsi-ld:OffStreetAppeal:32423424",
+    "type": "OffStreetAppeal",
+    "registrationNumber": {
+      "type": "Property",
+      "value": "6611JFD"
+    },
+    "identifierComplaint": {
+      "type": "Property",
+      "value": "32423424"
+    },
+    "queryDate": {
+      "type": "Datetime",
+      "value": "2026-04-27T12:27:47Z"
+    },
+    "idTypeOrigin": {
+      "type": "Property",
+      "value": "MET"
+    },
+    "codeMet": {
+      "type": "Property",
+      "value": "2"
+    },
+    "codeDelegation": {
+      "type": "Property",
+      "value": "30"
+    },
+    "@context": [
+      "https://smartdatamodels.org/context.jsonld",
+      "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+      "https://coresetex.es/setex/services/ngsi-ld/v1/ngsi-ld-context.jsonld"
+    ]
+}
+
+#####################################################
+POST CONFIRM ANNUL COMPLAINT
+#####################################################
+
+http://externalapi.coresetex.es/setex/services/ngsi-ld/v1/entities/confirmAnnulComplaint
+
+{
+    "id": "urn:ngsi-ld:ParkingTransaction:annul-3453534",
+    "type": "ParkingTransaction",
+    "registrationNumber": {
+      "type": "Property",
+      "value": "6611JFD"
+    },
+    "paymentDate": {
+      "type": "Datetime",
+      "value": "2026-04-27T12:27:47Z"
+    },
+    "totalAmount": {
+      "type": "Property",
+      "value": 9000
+    },
+    "codePayment": {
+      "type": "Property",
+      "value": "2"
+    },
+    "idTypeOrigin": {
+      "type": "Property",
+      "value": "MET"
+    },
+    "codeMet": {
+      "type": "Property",
+      "value": "2"
+    },
+    "codeDelegation": {
+      "type": "Property",
+      "value": "30"
+    },
+    "refOffStreetAppeal": {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:OffStreetAppeal:32423424"
+    },
+    "refParkingTicket": {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:ParkingTicket:ES000001"
+    },
+    "@context": [
+      "https://smartdatamodels.org/context.jsonld",
+      "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+      "https://coresetex.es/setex/services/ngsi-ld/v1/ngsi-ld-context.jsonld"
+    ]
+}
+
+#####################################################
+POST INSERT MET COLLECTION
+#####################################################
+
+http://externalapi.coresetex.es/setex/services/ngsi-ld/v1/entities/insertMetCollection
+
+{
+    "id": "urn:ngsi-ld:MetReport:GM001",
+    "type": "MetReport",
+    "refDevice": {
+      "type": "Property",
+      "value": "GM001"
+    },
+    "codeDelegation": {
+      "type": "Property",
+      "value": "30"
+    },
+    "collectNumber": {
+      "type": "Property",
+      "value": "1085"
+    },
+    "collectDate": {
+      "type": "Datetime",
+      "value": "2026-04-27T12:27:47Z"
+    },
+    "totalAmount": {
+      "type": "Property",
+      "value": 1520
+    },
+    "codeCollector": {
+      "type": "Property",
+      "value": "12"
+    },
+    "nbCoins005": {
+      "type": "Property",
+      "value": 1
+    },
+    "nbCoins010": {
+      "type": "Property",
+      "value": 4
+    },
+    "nbCoins020": {
+      "type": "Property",
+      "value": 6
+    },
+    "nbCoins050": {
+      "type": "Property",
+      "value": 2
+    },
+    "nbCoins100": {
+      "type": "Property",
+      "value": 7
+    },
+    "nbCoins200": {
+      "type": "Property",
+      "value": 3
+    },
+    "creditCardAmount": {
+      "type": "Property",
+      "value": 50
+    },
+    "@context": [
+      "https://smartdatamodels.org/context.jsonld",
+      "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+      "https://coresetex.es/setex/services/ngsi-ld/v1/ngsi-ld-context.jsonld"
+    ]
+}

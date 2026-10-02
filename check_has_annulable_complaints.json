@@ -1,0 +1,365 @@
+[
+  {
+    "id": "urn:ngsi-ld:OffStreetAppeal:32423424",
+    "type": "OffStreetAppeal",
+    "registrationNumber": {
+      "type": "Property",
+      "value": "6611JFD"
+    },
+    "identifierComplaint": {
+      "type": "Property",
+      "value": "32423424"
+    },
+    "queryDate": {
+      "type": "Datetime",
+      "value": "2026-04-27T12:27:47Z"
+    },
+    "idTypeOrigin": {
+      "type": "Property",
+      "value": "MET"
+    },
+    "codeMet": {
+      "type": "Property",
+      "value": "2"
+    },
+    "codeDelegation": {
+      "type": "Property",
+      "value": "30"
+    },
+    "@context": [
+      "https://smartdatamodels.org/context.jsonld",
+      "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+      "https://coresetex.es/setex/services/ngsi-ld/v1/ngsi-ld-context.jsonld"
+    ]
+  },
+  {
+    "id": "urn:ngsi-ld:OffStreetAppeal:32423424",
+    "type": "OffStreetAppeal",
+    "registrationNumber": {
+      "type": "Property",
+      "value": "6611JFD"
+    },
+    "identifierComplaint": {
+      "type": "Property",
+      "value": "32423424"
+    },
+    "queryDate": {
+      "type": "Datetime",
+      "value": "2026-04-27T12:27:47Z"
+    },
+    "idTypeOrigin": {
+      "type": "Property",
+      "value": "MET"
+    },
+    "codeMet": {
+      "type": "Property",
+      "value": "2"
+    },
+    "codeDelegation": {
+      "type": "Property",
+      "value": "30"
+    },
+    "@context": [
+      "https://smartdatamodels.org/context.jsonld",
+      "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+      "https://coresetex.es/setex/services/ngsi-ld/v1/ngsi-ld-context.jsonld"
+    ]
+  },
+  {
+    "id": "urn:ngsi-ld:OffStreetAppeal:32423424",
+    "type": "OffStreetAppeal",
+    "registrationNumber": {
+      "type": "Property",
+      "value": "6611JFD"
+    },
+    "identifierComplaint": {
+      "type": "Property",
+      "value": "32423424"
+    },
+    "queryDate": {
+      "type": "Datetime",
+      "value": "2026-04-27T12:27:47Z"
+    },
+    "idTypeOrigin": {
+      "type": "Property",
+      "value": "MET"
+    },
+    "codeMet": {
+      "type": "Property",
+      "value": "2"
+    },
+    "codeDelegation": {
+      "type": "Property",
+      "value": "30"
+    },
+    "@context": [
+      "https://smartdatamodels.org/context.jsonld",
+      "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+      "https://coresetex.es/setex/services/ngsi-ld/v1/ngsi-ld-context.jsonld"
+    ]
+  },
+  {
+    "id": "urn:ngsi-ld:ParkingViolation:4324234",
+    "type": "ParkingViolation",
+    "registrationNumber": {
+      "type": "Property",
+      "value": "6611JFD"
+    },
+    "identifierComplaint": {
+      "type": "Property",
+      "value": "4324234"
+    },
+    "queryDate": {
+      "type": "Datetime",
+      "value": "2026-04-27T12:27:47Z"
+    },
+    "idTypeOrigin": {
+      "type": "Property",
+      "value": "MET"
+    },
+    "codeMet": {
+      "type": "Property",
+      "value": "2"
+    },
+    "codeDelegation": {
+      "type": "Property",
+      "value": "30"
+    },
+    "@context": [
+      "https://smartdatamodels.org/context.jsonld",
+      "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+      "https://coresetex.es/setex/services/ngsi-ld/v1/ngsi-ld-context.jsonld"
+    ]
+  },
+  {
+    "id": "urn:ngsi-ld:ParkingViolation:4231123",
+    "type": "ParkingViolation",
+    "registrationNumber": {
+      "type": "Property",
+      "value": "4343GHG"
+    },
+    "identifierComplaint": {
+      "type": "Property",
+      "value": "4231123"
+    },
+    "queryDate": {
+      "type": "Datetime",
+      "value": "2026-04-27T12:27:47Z"
+    },
+    "idTypeOrigin": {
+      "type": "Property",
+      "value": "MET"
+    },
+    "codeMet": {
+      "type": "Property",
+      "value": "2"
+    },
+    "codeDelegation": {
+      "type": "Property",
+      "value": "30"
+    },
+    "@context": [
+      "https://smartdatamodels.org/context.jsonld",
+      "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+      "https://coresetex.es/setex/services/ngsi-ld/v1/ngsi-ld-context.jsonld"
+    ]
+  },
+  {
+    "id": "urn:ngsi-ld:ParkingViolation:4231123",
+    "type": "ParkingViolation",
+    "registrationNumber": {
+      "type": "Property",
+      "value": "2432dfg"
+    },
+    "identifierComplaint": {
+      "type": "Property",
+      "value": "4231123"
+    },
+    "queryDate": {
+      "type": "Datetime",
+      "value": "2026-04-27T12:27:47Z"
+    },
+    "idTypeOrigin": {
+      "type": "Property",
+      "value": "MET"
+    },
+    "codeMet": {
+      "type": "Property",
+      "value": "2"
+    },
+    "codeDelegation": {
+      "type": "Property",
+      "value": "30"
+    },
+    "@context": [
+      "https://smartdatamodels.org/context.jsonld",
+      "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+      "https://coresetex.es/setex/services/ngsi-ld/v1/ngsi-ld-context.jsonld"
+    ]
+  },
+  {
+    "id": "urn:ngsi-ld:ParkingViolation:4231123",
+    "type": "ParkingViolation",
+    "registrationNumber": {
+      "type": "Property",
+      "value": "2432dfg"
+    },
+    "identifierComplaint": {
+      "type": "Property",
+      "value": "4231123"
+    },
+    "queryDate": {
+      "type": "Datetime",
+      "value": "2026-04-27T12:27:47Z"
+    },
+    "idTypeOrigin": {
+      "type": "Property",
+      "value": "MET"
+    },
+    "codeMet": {
+      "type": "Property",
+      "value": "2"
+    },
+    "codeDelegation": {
+      "type": "Property",
+      "value": "30"
+    },
+    "@context": [
+      "https://smartdatamodels.org/context.jsonld",
+      "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+      "https://coresetex.es/setex/services/ngsi-ld/v1/ngsi-ld-context.jsonld"
+    ]
+  },
+  {
+    "id": "urn:ngsi-ld:ParkingViolation:4231123",
+    "type": "ParkingViolation",
+    "registrationNumber": {
+      "type": "Property",
+      "value": "12"
+    },
+    "identifierComplaint": {
+      "type": "Property",
+      "value": "4231123"
+    },
+    "queryDate": {
+      "type": "Datetime",
+      "value": "2026-04-27T12:27:47Z"
+    },
+    "idTypeOrigin": {
+      "type": "Property",
+      "value": "MET"
+    },
+    "codeMet": {
+      "type": "Property",
+      "value": "2"
+    },
+    "codeDelegation": {
+      "type": "Property",
+      "value": "30"
+    },
+    "@context": [
+      "https://smartdatamodels.org/context.jsonld",
+      "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+      "https://coresetex.es/setex/services/ngsi-ld/v1/ngsi-ld-context.jsonld"
+    ]
+  },
+  {
+    "id": "urn:ngsi-ld:ParkingViolation:4231123",
+    "type": "ParkingViolation",
+    "registrationNumber": {
+      "type": "Property",
+      "value": "4343GHG"
+    },
+    "identifierComplaint": {
+      "type": "Property",
+      "value": "4231123"
+    },
+    "queryDate": {
+      "type": "Datetime",
+      "value": "2026-04-27T12:27:47Z"
+    },
+    "idTypeOrigin": {
+      "type": "Property",
+      "value": "MET"
+    },
+    "codeMet": {
+      "type": "Property",
+      "value": "2"
+    },
+    "codeDelegation": {
+      "type": "Property",
+      "value": "30"
+    },
+    "@context": [
+      "https://smartdatamodels.org/context.jsonld",
+      "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+      "https://coresetex.es/setex/services/ngsi-ld/v1/ngsi-ld-context.jsonld"
+    ]
+  },
+  {
+    "id": "urn:ngsi-ld:ParkingViolation:4231123",
+    "type": "ParkingViolation",
+    "registrationNumber": {
+      "type": "Property",
+      "value": "7651GHG"
+    },
+    "identifierComplaint": {
+      "type": "Property",
+      "value": "4231123"
+    },
+    "queryDate": {
+      "type": "Datetime",
+      "value": "2026-04-27T12:27:47Z"
+    },
+    "idTypeOrigin": {
+      "type": "Property",
+      "value": "MET"
+    },
+    "codeMet": {
+      "type": "Property",
+      "value": "2"
+    },
+    "codeDelegation": {
+      "type": "Property",
+      "value": "30"
+    },
+    "@context": [
+      "https://smartdatamodels.org/context.jsonld",
+      "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+      "https://coresetex.es/setex/services/ngsi-ld/v1/ngsi-ld-context.jsonld"
+    ]
+  },
+  {
+    "id": "urn:ngsi-ld:ParkingViolation:4231123",
+    "type": "ParkingViolation",
+    "registrationNumber": {
+      "type": "Property",
+      "value": "8987UYF"
+    },
+    "identifierComplaint": {
+      "type": "Property",
+      "value": "4231123"
+    },
+    "queryDate": {
+      "type": "Datetime",
+      "value": "2026-05-13T12:37:47Z"
+    },
+    "idTypeOrigin": {
+      "type": "Property",
+      "value": "MET"
+    },
+    "codeMet": {
+      "type": "Property",
+      "value": "2"
+    },
+    "codeDelegation": {
+      "type": "Property",
+      "value": "30"
+    },
+    "@context": [
+      "https://smartdatamodels.org/context.jsonld",
+      "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+      "https://coresetex.es/setex/services/ngsi-ld/v1/ngsi-ld-context.jsonld"
+    ]
+  }
+]

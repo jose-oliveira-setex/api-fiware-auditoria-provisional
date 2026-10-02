@@ -1,0 +1,227 @@
+[
+  {
+    "id": "urn:ngsi-ld:ParkingTransaction:annul-3453534",
+    "type": "ParkingTransaction",
+    "registrationNumber": {
+      "type": "Property",
+      "value": "6611JFD"
+    },
+    "paymentDate": {
+      "type": "Datetime",
+      "value": "2026-04-27T12:27:47Z"
+    },
+    "totalAmount": {
+      "type": "Property",
+      "value": 9000
+    },
+    "codePayment": {
+      "type": "Property",
+      "value": "2"
+    },
+    "idTypeOrigin": {
+      "type": "Property",
+      "value": "MET"
+    },
+    "codeMet": {
+      "type": "Property",
+      "value": "2"
+    },
+    "codeDelegation": {
+      "type": "Property",
+      "value": "30"
+    },
+    "refOffStreetAppeal": {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:OffStreetAppeal:32423424"
+    },
+    "refParkingTicket": {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:ParkingTicket:ES000001"
+    },
+    "@context": [
+      "https://smartdatamodels.org/context.jsonld",
+      "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+      "https://coresetex.es/setex/services/ngsi-ld/v1/ngsi-ld-context.jsonld"
+    ]
+  },
+  {
+    "id": "urn:ngsi-ld:ParkingTransaction:annul-3453534",
+    "type": "ParkingTransaction",
+    "registrationNumber": {
+      "type": "Property",
+      "value": "6611JFD"
+    },
+    "paymentDate": {
+      "type": "Datetime",
+      "value": "2026-04-27T12:27:47Z"
+    },
+    "totalAmount": {
+      "type": "Property",
+      "value": 9000
+    },
+    "codePayment": {
+      "type": "Property",
+      "value": "2"
+    },
+    "idTypeOrigin": {
+      "type": "Property",
+      "value": "MET"
+    },
+    "codeMet": {
+      "type": "Property",
+      "value": "2"
+    },
+    "codeDelegation": {
+      "type": "Property",
+      "value": "30"
+    },
+    "refParkingViolation": {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:ParkingViolation:32423424"
+    },
+    "refParkingTicket": {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:ParkingTicket:ES000001"
+    },
+    "@context": [
+      "https://smartdatamodels.org/context.jsonld",
+      "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+      "https://coresetex.es/setex/services/ngsi-ld/v1/ngsi-ld-context.jsonld"
+    ]
+  },
+  {
+    "id": "urn:ngsi-ld:ParkingTransaction:annul-3453534",
+    "type": "ParkingTransaction",
+    "registrationNumber": {
+      "type": "Property",
+      "value": "4343GHG"
+    },
+    "paymentDate": {
+      "type": "Datetime",
+      "value": "2026-04-27T12:27:47Z"
+    },
+    "totalAmount": {
+      "type": "Property",
+      "value": 9000
+    },
+    "codePayment": {
+      "type": "Property",
+      "value": "2"
+    },
+    "idTypeOrigin": {
+      "type": "Property",
+      "value": "MET"
+    },
+    "codeMet": {
+      "type": "Property",
+      "value": "2"
+    },
+    "codeDelegation": {
+      "type": "Property",
+      "value": "30"
+    },
+    "refParkingViolation": {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:ParkingViolation:4231123"
+    },
+    "refParkingTicket": {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:ParkingTicket:ES000001"
+    },
+    "@context": [
+      "https://smartdatamodels.org/context.jsonld",
+      "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+      "https://coresetex.es/setex/services/ngsi-ld/v1/ngsi-ld-context.jsonld"
+    ]
+  },
+  {
+    "id": "urn:ngsi-ld:ParkingTransaction:annul-3453534",
+    "type": "ParkingTransaction",
+    "registrationNumber": {
+      "type": "Property",
+      "value": "1267GHG"
+    },
+    "paymentDate": {
+      "type": "Datetime",
+      "value": "2026-04-27T12:27:47Z"
+    },
+    "totalAmount": {
+      "type": "Property",
+      "value": 9000
+    },
+    "codePayment": {
+      "type": "Property",
+      "value": "2"
+    },
+    "idTypeOrigin": {
+      "type": "Property",
+      "value": "MET"
+    },
+    "codeMet": {
+      "type": "Property",
+      "value": "2"
+    },
+    "codeDelegation": {
+      "type": "Property",
+      "value": "30"
+    },
+    "refParkingViolation": {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:ParkingViolation:4231123"
+    },
+    "refParkingTicket": {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:ParkingTicket:ES000001"
+    },
+    "@context": [
+      "https://smartdatamodels.org/context.jsonld",
+      "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+      "https://coresetex.es/setex/services/ngsi-ld/v1/ngsi-ld-context.jsonld"
+    ]
+  },
+  {
+    "id": "urn:ngsi-ld:ParkingTransaction:annul-3453534",
+    "type": "ParkingTransaction",
+    "registrationNumber": {
+      "type": "Property",
+      "value": "1267GHG"
+    },
+    "paymentDate": {
+      "type": "Datetime",
+      "value": "2026-04-27T12:27:47Z"
+    },
+    "totalAmount": {
+      "type": "Property",
+      "value": 9000
+    },
+    "codePayment": {
+      "type": "Property",
+      "value": "2"
+    },
+    "idTypeOrigin": {
+      "type": "Property",
+      "value": "MET"
+    },
+    "codeMet": {
+      "type": "Property",
+      "value": "2"
+    },
+    "codeDelegation": {
+      "type": "Property",
+      "value": "30"
+    },
+    "refParkingViolation": {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:ParkingViolation:4231123"
+    },
+    "refParkingTicket": {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:ParkingTicket:ES000001"
+    },
+    "@context": [
+      "https://smartdatamodels.org/context.jsonld",
+      "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+      "https://coresetex.es/setex/services/ngsi-ld/v1/ngsi-ld-context.jsonld"
+    ]
+  }
+]

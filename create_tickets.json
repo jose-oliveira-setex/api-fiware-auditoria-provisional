@@ -1,0 +1,662 @@
+[
+  {
+    "id": "urn:ngsi-ld:ParkingTicket:ES000001",
+    "type": "ParkingTicket",
+    "registrationNumber": {
+      "type": "Property",
+      "value": "6611JFD"
+    },
+    "dateObserved": {
+      "type": "Datetime",
+      "value": "2026-04-27T12:27:47Z"
+    },
+    "validUntil": {
+      "type": "Datetime",
+      "value": "2026-04-27T14:27:47Z"
+    },
+    "creationDate": {
+      "type": "Datetime",
+      "value": "2026-04-27T12:27:47Z"
+    },
+    "idTypeOrigin": {
+      "type": "Property",
+      "value": "MET"
+    },
+    "dataProvider": {
+      "type": "Property",
+      "value": "BLINKAY"
+    },
+    "codeMet": {
+      "type": "Property",
+      "value": "24"
+    },
+    "refParkingSite": {
+      "type": "Property",
+      "value": "27"
+    },
+    "codeDelegation": {
+      "type": "Property",
+      "value": "15"
+    },
+    "paidMinutes": {
+      "type": "Property",
+      "value": "25"
+    },
+    "paymentDetail": {
+      "type": "Property",
+      "value": [
+        {
+          "amount": 150,
+          "codePayment": "1"
+        },
+        {
+          "amount": 30,
+          "codePayment": "6"
+        }
+      ]
+    },
+    "@context": [
+      "https://smartdatamodels.org/context.jsonld",
+      "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+      "https://coresetex.es/setex/services/ngsi-ld/v1/ngsi-ld-context.jsonld"
+    ]
+  },
+  {
+    "id": "urn:ngsi-ld:ParkingTicket:ES000001",
+    "type": "ParkingTicket",
+    "registrationNumber": {
+      "type": "Property",
+      "value": "6611JFD"
+    },
+    "dateObserved": {
+      "type": "Datetime",
+      "value": "2026-04-27T12:27:47Z"
+    },
+    "validUntil": {
+      "type": "Datetime",
+      "value": "2026-04-27T14:27:47Z"
+    },
+    "creationDate": {
+      "type": "Datetime",
+      "value": "2026-04-27T12:27:47Z"
+    },
+    "idTypeOrigin": {
+      "type": "Property",
+      "value": "MET"
+    },
+    "dataProvider": {
+      "type": "Property",
+      "value": "BLINKAY"
+    },
+    "codeMet": {
+      "type": "Property",
+      "value": "24"
+    },
+    "refParkingSite": {
+      "type": "Property",
+      "value": "27"
+    },
+    "identifierTicket": {
+      "type": "Property",
+      "value": "ES000001"
+    },
+    "extendMode": {
+      "type": "Property",
+      "value": "NO"
+    },
+    "codeDelegation": {
+      "type": "Property",
+      "value": "15"
+    },
+    "paidMinutes": {
+      "type": "Property",
+      "value": "25"
+    },
+    "paymentDetail": {
+      "type": "Property",
+      "value": [
+        {
+          "amount": 150,
+          "codePayment": "1"
+        },
+        {
+          "amount": 30,
+          "codePayment": "6"
+        }
+      ]
+    },
+    "@context": [
+      "https://smartdatamodels.org/context.jsonld",
+      "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+      "https://coresetex.es/setex/services/ngsi-ld/v1/ngsi-ld-context.jsonld"
+    ]
+  },
+  {
+    "id": "urn:ngsi-ld:ParkingTicket:ES000001",
+    "type": "ParkingTicket",
+    "registrationNumber": {
+      "type": "Property",
+      "value": "6611JFD"
+    },
+    "dateObserved": {
+      "type": "Datetime",
+      "value": "2026-04-27T12:27:47Z"
+    },
+    "validUntil": {
+      "type": "Datetime",
+      "value": "2026-04-27T14:27:47Z"
+    },
+    "creationDate": {
+      "type": "Datetime",
+      "value": "2026-04-27T12:27:47Z"
+    },
+    "idTypeOrigin": {
+      "type": "Property",
+      "value": "MET"
+    },
+    "dataProvider": {
+      "type": "Property",
+      "value": "BLINKAY"
+    },
+    "codeMet": {
+      "type": "Property",
+      "value": "24"
+    },
+    "refParkingSite": {
+      "type": "Property",
+      "value": "27"
+    },
+    "identifierTicket": {
+      "type": "Property",
+      "value": "ES000001"
+    },
+    "codeDelegation": {
+      "type": "Property",
+      "value": "15"
+    },
+    "paidMinutes": {
+      "type": "Property",
+      "value": "25"
+    },
+    "paymentDetail": {
+      "type": "Property",
+      "value": [
+        {
+          "amount": 150,
+          "codePayment": "1"
+        },
+        {
+          "amount": 30,
+          "codePayment": "6"
+        }
+      ]
+    },
+    "@context": [
+      "https://smartdatamodels.org/context.jsonld",
+      "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+      "https://coresetex.es/setex/services/ngsi-ld/v1/ngsi-ld-context.jsonld"
+    ]
+  },
+  {
+    "id": "urn:ngsi-ld:ParkingTicket:ES000001",
+    "type": "ParkingTicket",
+    "registrationNumber": {
+      "type": "",
+      "value": "6611JFD"
+    },
+    "dateObserved": {
+      "type": "Datetime",
+      "value": "2026-04-27T12:27:47Z"
+    },
+    "validUntil": {
+      "type": "Datetime",
+      "value": "2026-04-27T14:27:47Z"
+    },
+    "creationDate": {
+      "type": "Datetime",
+      "value": "2026-04-27T12:27:47Z"
+    },
+    "idTypeOrigin": {
+      "type": "Property",
+      "value": "MET"
+    },
+    "dataProvider": {
+      "type": "Property",
+      "value": "BLINKAY"
+    },
+    "codeMet": {
+      "type": "Property",
+      "value": "24"
+    },
+    "refParkingSite": {
+      "type": "Property",
+      "value": "27"
+    },
+    "identifierTicket": {
+      "type": "Property",
+      "value": "ES000001"
+    },
+    "codeDelegation": {
+      "type": "Property",
+      "value": "15"
+    },
+    "paidMinutes": {
+      "type": "Property",
+      "value": "25"
+    },
+    "paymentDetail": {
+      "type": "Property",
+      "value": [
+        {
+          "amount": 150,
+          "codePayment": "1"
+        },
+        {
+          "amount": 30,
+          "codePayment": "6"
+        }
+      ]
+    },
+    "@context": [
+      "https://smartdatamodels.org/context.jsonld",
+      "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+      "https://coresetex.es/setex/services/ngsi-ld/v1/ngsi-ld-context.jsonld"
+    ]
+  },
+  {
+    "id": "urn:ngsi-ld:ParkingTicket:ES000001",
+    "type": "ParkingTicket",
+    "registrationNumber": {
+      "type": "Property",
+      "value": ""
+    },
+    "dateObserved": {
+      "type": "Datetime",
+      "value": "2026-04-27T12:27:47Z"
+    },
+    "validUntil": {
+      "type": "Datetime",
+      "value": "2026-04-27T14:27:47Z"
+    },
+    "creationDate": {
+      "type": "Datetime",
+      "value": "2026-04-27T12:27:47Z"
+    },
+    "idTypeOrigin": {
+      "type": "Property",
+      "value": "MET"
+    },
+    "dataProvider": {
+      "type": "Property",
+      "value": "BLINKAY"
+    },
+    "codeMet": {
+      "type": "Property",
+      "value": "24"
+    },
+    "refParkingSite": {
+      "type": "Property",
+      "value": "27"
+    },
+    "identifierTicket": {
+      "type": "Property",
+      "value": "ES000001"
+    },
+    "codeDelegation": {
+      "type": "Property",
+      "value": "15"
+    },
+    "paidMinutes": {
+      "type": "Property",
+      "value": "25"
+    },
+    "paymentDetail": {
+      "type": "Property",
+      "value": [
+        {
+          "amount": 150,
+          "codePayment": "1"
+        },
+        {
+          "amount": 30,
+          "codePayment": "6"
+        }
+      ]
+    },
+    "@context": [
+      "https://smartdatamodels.org/context.jsonld",
+      "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+      "https://coresetex.es/setex/services/ngsi-ld/v1/ngsi-ld-context.jsonld"
+    ]
+  },
+  {
+    "id": "urn:ngsi-ld:ParkingTicket:ES000001",
+    "type": "ParkingTicket",
+    "registrationNumber": {
+      "type": "Property",
+      "value": "6611JFD"
+    },
+    "dateObserved": {
+      "type": "Datetime",
+      "value": "2026-04-27T12:27:47Z"
+    },
+    "validUntil": {
+      "type": "Datetime",
+      "value": "2026-04-27T14:27:47Z"
+    },
+    "creationDate": {
+      "type": "Datetime",
+      "value": "2026-04-27T12:27:47Z"
+    },
+    "idTypeOrigin": {
+      "type": "Property",
+      "value": "MET"
+    },
+    "dataProvider": {
+      "type": "Property",
+      "value": "BLINKAY"
+    },
+    "codeMet": {
+      "type": "Property",
+      "value": "24"
+    },
+    "refParkingSite": {
+      "type": "Property",
+      "value": "27"
+    },
+    "identifierTicket": {
+      "type": "Property",
+      "value": "ES000001"
+    },
+    "codeDelegation": {
+      "type": "Property",
+      "value": "15"
+    },
+    "paidMinutes": {
+      "type": "Property",
+      "value": "25"
+    },
+    "paymentDetail": {
+      "type": "Property",
+      "value": [
+        {
+          "amount": 150,
+          "codePayment": "1"
+        },
+        {
+          "amount": 30,
+          "codePayment": "6"
+        }
+      ]
+    },
+    "@context": [
+      "https://smartdatamodels.org/context.jsonld",
+      "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+      "https://coresetex.es/setex/services/ngsi-ld/v1/ngsi-ld-context.jsonld"
+    ]
+  },
+  {
+    "id": "urn:ngsi-ld:ParkingTicket:ES000001",
+    "type": "ParkingTicket",
+    "registrationNumber": {
+      "type": "Property",
+      "value": "6611JFD"
+    },
+    "dateObserved": {
+      "type": "Datetime",
+      "value": "2026-04-27T12:27:47Z"
+    },
+    "validUntil": {
+      "type": "Datetime",
+      "value": "2026-04-27T14:27:47Z"
+    },
+    "creationDate": {
+      "type": "Datetime",
+      "value": "2026-04-27T12:27:47Z"
+    },
+    "idTypeOrigin": {
+      "type": "Property",
+      "value": "MET"
+    },
+    "dataProvider": {
+      "type": "Property",
+      "value": "BLINKAY"
+    },
+    "codeMet": {
+      "type": "Property",
+      "value": "24"
+    },
+    "refParkingSite": {
+      "type": "Property",
+      "value": "27"
+    },
+    "identifierTicket": {
+      "type": "Property",
+      "value": "ES000001"
+    },
+    "codeDelegation": {
+      "type": "Property",
+      "value": "15"
+    },
+    "paidMinutes": {
+      "type": "Property",
+      "value": "25"
+    },
+    "paymentDetail": {
+      "type": "Property",
+      "value": [
+        {
+          "amount": 150,
+          "codePayment": "1"
+        },
+        {
+          "amount": 30,
+          "codePayment": "6"
+        }
+      ]
+    },
+    "@context": [
+      "https://smartdatamodels.org/context.jsonld",
+      "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+      "https://coresetex.es/setex/services/ngsi-ld/v1/ngsi-ld-context.jsonld"
+    ]
+  },
+  {
+    "id": "urn:ngsi-ld:ParkingTicket:ES000001",
+    "type": "ParkingTicket",
+    "registrationNumber": {
+      "type": "Property",
+      "value": "6611JFD"
+    },
+    "dateObserved": {
+      "type": "Datetime",
+      "value": "2026-04-27T12:27:47Z"
+    },
+    "validUntil": {
+      "type": "Datetime",
+      "value": "2026-04-27T14:27:47Z"
+    },
+    "creationDate": {
+      "type": "Datetime",
+      "value": "2026-04-27T12:27:47Z"
+    },
+    "idTypeOrigin": {
+      "type": "Property",
+      "value": "MET"
+    },
+    "dataProvider": {
+      "type": "Property",
+      "value": "BLINKAY"
+    },
+    "codeMet": {
+      "type": "Property",
+      "value": "24"
+    },
+    "refParkingSite": {
+      "type": "Property",
+      "value": "27"
+    },
+    "identifierTicket": {
+      "type": "Property",
+      "value": "ES000001"
+    },
+    "codeDelegation": {
+      "type": "Property",
+      "value": "15"
+    },
+    "paidMinutes": {
+      "type": "Property",
+      "value": "25"
+    },
+    "paymentDetail": {
+      "type": "Property",
+      "value": [
+        {
+          "amount": 150,
+          "codePayment": "1"
+        },
+        {
+          "amount": 30,
+          "codePayment": "6"
+        }
+      ]
+    },
+    "@context": [
+      "https://smartdatamodels.org/context.jsonld",
+      "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+      "https://coresetex.es/setex/services/ngsi-ld/v1/ngsi-ld-context.jsonld"
+    ]
+  },
+  {
+    "id": "urn:ngsi-ld:ParkingTicket:ES000050",
+    "type": "ParkingTicket",
+    "registrationNumber": {
+      "type": "Property",
+      "value": "6611JFD"
+    },
+    "dateObserved": {
+      "type": "Datetime",
+      "value": "2026-04-27T12:27:47Z"
+    },
+    "validUntil": {
+      "type": "Datetime",
+      "value": "2026-04-27T14:27:47Z"
+    },
+    "creationDate": {
+      "type": "Datetime",
+      "value": "2026-04-27T12:27:47Z"
+    },
+    "idTypeOrigin": {
+      "type": "Property",
+      "value": "MET"
+    },
+    "dataProvider": {
+      "type": "Property",
+      "value": "BLINKAY"
+    },
+    "codeMet": {
+      "type": "Property",
+      "value": "24"
+    },
+    "refParkingSite": {
+      "type": "Property",
+      "value": "27"
+    },
+    "identifierTicket": {
+      "type": "Property",
+      "value": "ES000001"
+    },
+    "codeDelegation": {
+      "type": "Property",
+      "value": "15"
+    },
+    "paidMinutes": {
+      "type": "Property",
+      "value": "25"
+    },
+    "paymentDetail": {
+      "type": "Property",
+      "value": [
+        {
+          "amount": 150,
+          "codePayment": "1"
+        },
+        {
+          "amount": 30,
+          "codePayment": "6"
+        }
+      ]
+    },
+    "@context": [
+      "https://smartdatamodels.org/context.jsonld",
+      "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+      "https://coresetex.es/setex/services/ngsi-ld/v1/ngsi-ld-context.jsonld"
+    ]
+  },
+  {
+    "id": "urn:ngsi-ld:ParkingTicket:ES000050",
+    "type": "ParkingTicket",
+    "registrationNumber": {
+      "type": "Property",
+      "value": "6611JFD"
+    },
+    "dateObserved": {
+      "type": "Datetime",
+      "value": "2026-04-27T12:27:47Z"
+    },
+    "validUntil": {
+      "type": "Datetime",
+      "value": "2026-04-27T14:27:47Z"
+    },
+    "creationDate": {
+      "type": "Datetime",
+      "value": "2026-04-27T12:27:47Z"
+    },
+    "idTypeOrigin": {
+      "type": "Property",
+      "value": "MET"
+    },
+    "dataProvider": {
+      "type": "Property",
+      "value": "BLINKAY"
+    },
+    "codeMet": {
+      "type": "Property",
+      "value": "24"
+    },
+    "refParkingSite": {
+      "type": "Property",
+      "value": "27"
+    },
+    "identifierTicket": {
+      "type": "Property",
+      "value": "ES000001"
+    },
+    "codeDelegation": {
+      "type": "Property",
+      "value": "15"
+    },
+    "paidMinutes": {
+      "type": "Property",
+      "value": "25"
+    },
+    "paymentDetail": {
+      "type": "Property",
+      "value": [
+        {
+          "amount": 150,
+          "codePayment": "1"
+        },
+        {
+          "amount": 30,
+          "codePayment": "6"
+        }
+      ]
+    },
+    "@context": [
+      "https://smartdatamodels.org/context.jsonld",
+      "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+      "https://coresetex.es/setex/services/ngsi-ld/v1/ngsi-ld-context.jsonld"
+    ]
+  }
+]
