@@ -1,0 +1,246 @@
+[
+  {
+    "id": "urn:ngsi-ld:MetReport:GM001",
+    "type": "MetReport",
+    "refDevice": {
+      "type": "Property",
+      "value": "GM001"
+    },
+    "codeDelegation": {
+      "type": "Property",
+      "value": "30"
+    },
+    "collectNumber": {
+      "type": "Property",
+      "value": "1085"
+    },
+    "collectDate": {
+      "type": "Datetime",
+      "value": "2026-04-27T12:27:47Z"
+    },
+    "totalAmount": {
+      "type": "Property",
+      "value": 1520
+    },
+    "codeCollector": {
+      "type": "Property",
+      "value": "12"
+    },
+    "nbCoins005": {
+      "type": "Property",
+      "value": 1
+    },
+    "nbCoins010": {
+      "type": "Property",
+      "value": 4
+    },
+    "nbCoins020": {
+      "type": "Property",
+      "value": 6
+    },
+    "nbCoins050": {
+      "type": "Property",
+      "value": 2
+    },
+    "nbCoins100": {
+      "type": "Property",
+      "value": 7
+    },
+    "nbCoins200": {
+      "type": "Property",
+      "value": 3
+    },
+    "creditCardAmount": {
+      "type": "Property",
+      "value": 50
+    },
+    "@context": [
+      "https://smartdatamodels.org/context.jsonld",
+      "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+      "https://coresetex.es/setex/services/ngsi-ld/v1/ngsi-ld-context.jsonld"
+    ]
+  },
+  {
+    "id": "urn:ngsi-ld:MetReport:GM001",
+    "type": "MetReport",
+    "refDevice": {
+      "type": "Property",
+      "value": "GM001"
+    },
+    "codeDelegation": {
+      "type": "Property",
+      "value": "30"
+    },
+    "collectNumber": {
+      "type": "Property",
+      "value": "1085"
+    },
+    "collectDate": {
+      "type": "Datetime",
+      "value": "2026-04-27T12:27:47Z"
+    },
+    "totalAmount": {
+      "type": "Property",
+      "value": 1520
+    },
+    "codeCollector": {
+      "type": "Property",
+      "value": "12"
+    },
+    "nbCoins005": {
+      "type": "Property",
+      "value": 1
+    },
+    "nbCoins010": {
+      "type": "Property",
+      "value": 4
+    },
+    "nbCoins020": {
+      "type": "Property",
+      "value": 6
+    },
+    "nbCoins050": {
+      "type": "Property",
+      "value": 2
+    },
+    "nbCoins100": {
+      "type": "Property",
+      "value": 7
+    },
+    "nbCoins200": {
+      "type": "Property",
+      "value": 3
+    },
+    "creditCardAmount": {
+      "type": "Property",
+      "value": 50
+    },
+    "@context": [
+      "https://smartdatamodels.org/context.jsonld",
+      "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+      "https://coresetex.es/setex/services/ngsi-ld/v1/ngsi-ld-context.jsonld"
+    ]
+  },
+  {
+    "id": "urn:ngsi-ld:MetReport:GM001",
+    "type": "MetReport",
+    "refDevice": {
+      "type": "Property",
+      "value": "GM001"
+    },
+    "codeDelegation": {
+      "type": "Property",
+      "value": "30"
+    },
+    "collectNumber": {
+      "type": "Property",
+      "value": "1085"
+    },
+    "collectDate": {
+      "type": "Datetime",
+      "value": "2026-04-27T12:27:47Z"
+    },
+    "totalAmount": {
+      "type": "Property",
+      "value": 1520
+    },
+    "codeCollector": {
+      "type": "Property",
+      "value": "12"
+    },
+    "nbCoins005": {
+      "type": "Property",
+      "value": 1
+    },
+    "nbCoins010": {
+      "type": "Property",
+      "value": 4
+    },
+    "nbCoins020": {
+      "type": "Property",
+      "value": 6
+    },
+    "nbCoins050": {
+      "type": "Property",
+      "value": 2
+    },
+    "nbCoins100": {
+      "type": "Property",
+      "value": 7
+    },
+    "nbCoins200": {
+      "type": "Property",
+      "value": 3
+    },
+    "creditCardAmount": {
+      "type": "Property",
+      "value": 50
+    },
+    "@context": [
+      "https://smartdatamodels.org/context.jsonld",
+      "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+      "https://coresetex.es/setex/services/ngsi-ld/v1/ngsi-ld-context.jsonld"
+    ]
+  },
+  {
+    "id": "urn:ngsi-ld:MetReport:GM001",
+    "type": "MetReport",
+    "refDevice": {
+      "type": "Property",
+      "value": "GM001"
+    },
+    "codeDelegation": {
+      "type": "Property",
+      "value": "30"
+    },
+    "collectNumber": {
+      "type": "Property",
+      "value": "1085"
+    },
+    "collectDate": {
+      "type": "Datetime",
+      "value": "2026-04-27T12:27:47Z"
+    },
+    "totalAmount": {
+      "type": "Property",
+      "value": 1520
+    },
+    "codeCollector": {
+      "type": "Property",
+      "value": "12"
+    },
+    "nbCoins005": {
+      "type": "Property",
+      "value": 1
+    },
+    "nbCoins010": {
+      "type": "Property",
+      "value": 4
+    },
+    "nbCoins020": {
+      "type": "Property",
+      "value": 6
+    },
+    "nbCoins050": {
+      "type": "Property",
+      "value": 2
+    },
+    "nbCoins100": {
+      "type": "Property",
+      "value": 7
+    },
+    "nbCoins200": {
+      "type": "Property",
+      "value": 3
+    },
+    "creditCardAmount": {
+      "type": "Property",
+      "value": 50
+    },
+    "@context": [
+      "https://smartdatamodels.org/context.jsonld",
+      "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+      "https://coresetex.es/setex/services/ngsi-ld/v1/ngsi-ld-context.jsonld"
+    ]
+  }
+]
